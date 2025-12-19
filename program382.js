@@ -19,7 +19,7 @@ function main()
 {
     let str = "Hello";
  
-    Ret = Count('l');
+    Ret = Count(str);
     
     console.log(Ret);
     

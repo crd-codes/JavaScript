@@ -1,5 +1,5 @@
 
-function Count(str)
+function CountSmall(str)
 {
     let iCnt = 0;
     let iCount = 0;
@@ -18,8 +18,9 @@ function Count(str)
 function main()
 {
     let str = "Hello";
+    let Ret = 0;
  
-    Ret = Count('l');
+    Ret = CountSmall(str);
     
     console.log(Ret);
     
